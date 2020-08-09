@@ -1,0 +1,59 @@
+.point {
+    float     : left;
+    background: #f1f1f1;
+    width     : 20%;
+    text-align: center;
+}
+
+.linkdata {
+    float: right;
+    width: 78%;
+}
+
+.linkitem::after {
+    content: '';
+    display: block;
+    clear  : both;
+}
+
+.linkitem {
+    margin  : 5px 0;
+    position: relative;
+}
+
+.link {
+    font-size: 12px;
+    display  : block;
+}
+
+.votebutton {
+    font-size  : 12px;
+    font-weight: bold;
+    color      : #747474;
+    padding    : 0;
+    background : none;
+    border     : 0;
+}
+
+.up {
+    float: left;
+}
+
+.up {
+    float: right;
+}
+
+.remove {
+    background   : red;
+    color        : #fff;
+    position     : absolute;
+    right        : 0;
+    top          : 0;
+    border       : 0;
+    border-radius: 50%;
+    display      : none;
+}
+
+.linkitem:hover .remove {
+    display: block;
+}

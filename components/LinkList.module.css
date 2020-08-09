@@ -1,0 +1,22 @@
+.addlink {
+    background: #f1f1f1;
+    display   : block;
+    padding   : 10px;
+    text-align: center;
+    position  : relative;
+}
+
+.addlink::before {
+    content    : '+';
+    float      : left;
+    width      : 30px;
+    height     : calc(100% - 20px);
+    position   : absolute;
+    left       : 5px;
+    background : #dfdfdf;
+    line-height: 25px;
+}
+
+.orderselect {
+    padding: 10px;
+}
